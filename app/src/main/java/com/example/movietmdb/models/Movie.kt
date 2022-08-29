@@ -17,7 +17,7 @@ data class Movie (
     @SerializedName("poster_path")
     val poster : String ?,
 
-    @SerializedName("release_data")
+    @SerializedName("release_date")
     val release : String?
 
         ): Parcelable{
